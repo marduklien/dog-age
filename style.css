@@ -1,0 +1,72 @@
+/* 全頁面底色 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f2e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 狗狗圖片容器 */
+.dog-container {
+    position: relative;
+    width: 400px;
+    max-width: 90%;
+}
+
+/* 狗狗圖 */
+.dog-image {
+    width: 100%;
+    display: block;
+}
+
+/* 對話框 */
+.dialogue-box {
+    position: absolute;
+    top: -170px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    padding: 18px;
+    background: #ffffffee;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.dialogue-box h1 {
+    margin: 0 0 15px 0;
+    font-size: 1.4rem;
+    color: #444;
+}
+
+.dialogue-box input[type="date"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.dialogue-box button {
+    padding: 10px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: #ff9966;
+    color: white;
+    font-weight: bold;
+}
+
+.dialogue-box button:hover {
+    background: #ff7a42;
+}
+
+.result {
+    margin-top: 12px;
+    font-size: 1.1rem;
+    color: #222;
+}
